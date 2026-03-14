@@ -1,33 +1,28 @@
-{
-  "inbounds": [
-    {
-      "name": "🇨🇿 Чехия - Прага",
-      "protocol": "vless",
-      "port": 8443,
-      "uuid": "22de243a-9037-4c07-a634-30069ade7abe",
-      "flow": "",
-      "network": "tcp",
-      "wsSettings": {
-        "path": "/chechiavpndanieu/"
-      },
-      "tlsSettings": {
-        "serverName": "188.127.247.30",
-        "allowInsecure": false
-      }
-    },
-    {
-      "name": "🇩🇪 Германия - Франкфурт-на-Майне",
-      "port": 10000,
-      "uuid": "4f79cebf-c035-4e33-a592-fb1648a53f9f",
-      "flow": "",
-      "network": "tcp",
-      "wsSettings": {
-        "path": "/germanyvpn/"
-      },
-      "tlsSettings": {
-        "serverName": "94.249.167.195",
-        "allowInsecure": false
-      }
-    }
-  ]
-}
+[
+  {
+    "v": "2",
+    "ps": "🇨🇿 Чехия - Prague",
+    "add": "188.127.247.30",
+    "port": "8443",
+    "id": "22de243a-9037-4c07-a634-30069ade7abe",
+    "aid": "0",
+    "net": "tcp",
+    "type": "none",
+    "host": "",
+    "path": "/chechiavpndanieu/",
+    "tls": "none"
+  },
+  {
+    "v": "2",
+    "ps": "🇩🇪 Германия - Geomania",
+    "add": "94.249.167.195",
+    "port": "10000",
+    "id": "4f79cebf-c035-4e33-a592-fb1648a53f9f",
+    "aid": "0",
+    "net": "tcp",
+    "type": "none",
+    "host": "",
+    "path": "/germanyvpn/",
+    "tls": "none"
+  }
+]
